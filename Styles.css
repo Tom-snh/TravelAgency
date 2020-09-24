@@ -1,0 +1,239 @@
+/*General*/
+body{
+    background-color:#E3E7F1;
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+h2{
+    color:black;
+    font-size:55px
+}
+.wrapper{
+    width:1200px;
+    margin:0 auto;
+    padding:0 10px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.lien:hover{
+    color:orange;
+}
+ul{
+    list-style:none;
+}
+.orange{
+    color:orange;
+}
+
+/*Header*/
+header{
+    height: 122px;
+}
+header h1{
+    float:left;
+    margin-top:32px;
+}
+header nav{
+    float:right;
+}
+header nav ul li{
+    display:inline-block;
+    margin-top:55px;
+    margin-right: 25px;
+}
+header nav ul li a{
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+/*Main_image*/
+#main_image{
+    height:500px;
+    width:1600px;
+
+    background:url('Images/Iles.jpg') no-repeat center;
+}
+#main_image h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align:center;
+    padding:150px 0px 40px 0px;
+}
+.button_1{
+    width:120px;
+    height:50px;
+    display: block;
+    background:orange;
+    text-align:center;
+    color:white;
+    font-size:20px;
+    margin:0 auto;
+    line-height: 50px;
+    border-radius:3px;    
+}
+.button_1:hover{
+    background-color:blue;
+}
+
+/*Steps*/
+#steps{
+    height:200px;
+    
+}
+#steps ul li{
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+    margin-top:50px;
+    padding-top:250px;
+    margin-left:90px;
+}
+.titre{
+    margin-bottom:25px;
+    font-weight: bold;
+    font-size:25px;
+}
+#step1{
+    background: url("Images/iconeVoyage.png") no-repeat center top;
+}
+#step2{
+    background: url("Images/iconOrganiser.png") no-repeat center top;
+}
+#step3{
+    background: url("Images/iconPlannifier.webp") no-repeat center top;
+}
+
+/*Possibilities*/
+#possibilities{
+    width:1600px;
+    height: 250px;
+    margin-top:300px;
+    background-color:#efefef;
+    padding: 60px 0;
+}
+#possibilities article{
+    width:450px;
+    height: 270px;
+    float:left;
+    border-radius:10px;
+    margin-left:90px;
+    
+}
+#possibilities article:first-child{
+    margin-right:20px;
+}
+.overlay{
+    background:rgba(255,255,255,0.85);
+    height: 85%;
+    width: 190px;
+    padding:20px;
+    border-radius:10px 0 0 10px;
+    text-align:center;
+}
+article h4{
+    border-bottom:1px solid #ddd;
+    font-weight: bold;
+    font-size:25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+article p{
+    margin-top:10px;
+    text-align:center;
+    margin-bottom:30px;
+} 
+article a{
+    width:90px;
+    height:25px;
+    display: block;
+    background-color:orange;
+    text-align:center;
+    color:white;
+    border-radius:3px;
+    font-size:15px;
+    margin:0 auto;
+    line-height: 20px;
+    padding:6px 20px;
+}
+article a:hover{
+    background-color:blue;
+}
+
+/*Contacts*/
+#contact{
+    /*margin-top:50px;*/
+    padding:60px 0;
+}
+#contact h3{
+    width:400px;
+    margin-left: 450px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:30px;
+    text-align: center;
+    border-bottom:1px solid #02b8dd;
+    padding-bottom:20px;
+}
+#contact p{
+    text-align:center;
+    padding-top:20px;
+    font-size:15px;
+    padding-bottom:30px;
+    margin-left:50px;
+}
+#contact form{
+    margin-left: 350px;
+    margin-top:30px;
+    padding-bottom:30px;
+}
+#contact label{
+    font-weight: bold;
+    font-size:20px;
+    margin-right: 5px;
+}
+input[type="text"]{
+    margin-right: 20px;
+    font-size:20px;
+    border:2px solid #ddd;
+    border-radius:3px;
+}
+.button_contact{
+    font-size:20px;
+    color:#fff;
+    font-weight: bold;
+    padding:11px;
+    background-color:blue;
+    border-style:none;
+    border-radius:3px;
+}
+.button_contact:hover{
+    background-color:#444;
+}
+
+/*Footer*/
+footer{
+    height: 250px;
+    width: 1600px;
+    background-color:#444;
+}
+footer h1{
+    color:white;
+    text-align:center;
+    padding-top:80px;
+
+}
+.copyright{
+    text-align:center;
+    padding-top:60px;
+    color:#777;
+}
